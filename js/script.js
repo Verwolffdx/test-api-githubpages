@@ -8,8 +8,8 @@ function requestTry() {
     var xhr = new XMLHttpRequest();
 
     // 2. Конфигурируем его: GET-запрос на URL 'phones.json'
-    xhr.open('GET', 'https://patient.simplex48.ru/api/Web/medorglist/', false);
-    // xhr.open('GET', 'https://patient-api-simed.herokuapp.com/all-patients', true);
+    // xhr.open('GET', 'https://patient.simplex48.ru/api/Web/medorglist/', false);
+    xhr.open('GET', 'https://patient-api-simed.herokuapp.com/all-patients', false);
     // xhr.withCredentials = true;
     // xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
 
